@@ -16,7 +16,7 @@
    color: var(--Very-dark-Grayish-Blue);
 }
 
-html , body {
+ html , body {
     width: 100%;
     height: auto;
     background: var(--Light-Grayish-Blue);
@@ -30,14 +30,14 @@ body {
 }
 h1 {
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 700;
 }
 img { 
     height: 100%;
     width: 100%;
 }
 
-.main {
+main {
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -46,12 +46,12 @@ img {
 }
 
 .card {
-    width: 25.16rex;
+    width: 25.16rem;
     border-radius: 10px;
 }
 .card-image {
     overflow: hidden;
-    width: 15.3rem;
+    height: 15.3rem;
     border-radius: 10px 0 0 10px;
 }
 .card-main {
@@ -92,7 +92,7 @@ img {
  .icon-share {
     padding: absolute;
     z-index: 5;
-    background-color: var(--Light-Grayish-Blue);
+    background-color: paleturquoise;
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
@@ -114,11 +114,10 @@ img {
     background: var(--Very-dark-Grayish-Blue);
     display: flex;
     align-items: center;
-    visibility: hidden;
+     visibility: hidden; */
     z-index: 1;
 
  }
-
  .network p {
     font-size: 1.3rem;
     font-weight: 100;
