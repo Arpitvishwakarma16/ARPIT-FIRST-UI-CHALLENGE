@@ -114,9 +114,7 @@ main {
     background: var(--Very-dark-Grayish-Blue);
     display: flex;
     align-items: center;
-     visibility: hidden; */
-    z-index: 1;
-
+     visibility: hidden; 
  }
  .network p {
     font-size: 1.3rem;
