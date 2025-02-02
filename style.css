@@ -1,8 +1,8 @@
- :root{
---Very-dark-Grayish-Blue: hsl(217, 19%, 35%);
---Desaturated-Dark-Blue: hsl(214, 17%, 51%);
---Grayish-Blue: hsl(212, 23%, 69%);
---Light-Grayish-Blue: hsl(210, 46%, 95%);
+:root{
+--Very-dark-grayish-blue: hsl(217, 19%, 35%);
+--desaturated-Dark-blue: hsl(214, 17%, 51%);
+--grayish-blue: hsl(212, 23%, 69%);
+--light-grayish-blue: hsl(210, 46%, 95%);
 
 }
 
@@ -13,13 +13,13 @@
    font-family: 'manrope', sans-serif;
    font-weight: 500;
    font-size: 13px;
-   color: var(--Very-dark-Grayish-Blue);
+   color: var(--Very-dark-grayish-blue);
 }
 
  html, body {
     width: 100%;
     height: auto;
-    background: var(--Light-Grayish-Blue);
+    background-color: var(--light-grayish-blue);
     
 }
 body {
@@ -30,7 +30,7 @@ body {
     justify-content: space-between;
 }
 h1 {
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: 700;
 }
 img { 
@@ -39,7 +39,7 @@ img {
     display: flex;
 }
 
-main {
+.main {
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -48,12 +48,12 @@ main {
 }
 
 .card {
-    width: 25.16rem;
+    width: 25rem;
     border-radius: 10px;
 }
 .card-image {
     overflow: hidden;
-    height: 15.3rem;
+    height: 15rem;
     border-radius: 10px 0 0 10px;
 }
 .card-main {
