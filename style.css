@@ -92,30 +92,29 @@ img {
     font-weight: 100;
  }
  .icon-share {
-    padding: relative;
+    position: relative;
     z-index: 5;
-    background-color: paleturquoise;
+    background-color:var(--light-grayish-blue);
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
  }
  .icon-share:hover .i-share{
-    fill: var(--Grayish-Blue);
+    fill: var(--light-grayish-blue);
     animation: shareAnimation .2s linear;
  } 
-
- @keyframes shareAnimation {
-    from {}
-    to {
+@keyframes shareAnimation {
+    from{}
+    to{
         transform: translateX(1px);
     }
- }
+     
+}
 
- .icon-share:hover{
-    background: var(--Very-dark-Grayish-Blue);
-    transition: background 100ms linear ;
- }
-
+.icon-share:hover{
+   background-color: var(--Very-dark-grayish-blue);
+   transition: background 100ms linear;
+}
  .network {
     position: absolute;
     top: 5px;
@@ -124,25 +123,23 @@ img {
     height: 75px;
     padding: 2rem;
     border-radius:  0 0 10px 10px;
-    background: var(--Very-dark-Grayish-Blue);
+    background: var(--Very-dark-grayish-blue);
     display: flex;
     align-items: center;
-    visibility: hidden; 
+    /*visibility: hidden; */
     z-index: 1;
  }
  .network p {
     font-size: 1.3rem;
     font-weight: 100;
-    color: var(--Grayish-Blue);
+    color: white;
     margin-right: 10px;
     text-transform: uppercase;
     letter-spacing: 3px;
  }
  .icon-network a  svg{
-    color: white;
     font-size: 1.7rem;
     margin: auto 0.7rem;
-
  }
 
  @media(min-width: 1024px) {
@@ -167,6 +164,18 @@ img {
         height: 50px;
         top: -60px;
         left: 59;
+        border-radius: 10px;
+        justify-content: center;
+ }
+ .network::after {
+    content: '';
+    position: absolute;
+    top: 52px;
+    display: block;
+    border-width: 15px;
+    border-style: solid;
+    border-color: var(--Very-dark-grayish-blue) transparent transparent;
  }
 
 }
+
