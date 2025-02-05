@@ -58,6 +58,7 @@ img {
 }
 .card-main {
      padding: 44px 32px 0;
+     background-color: white;
 }
 .card-content > p {
     font-size: 1.1rem;
@@ -126,7 +127,7 @@ img {
     background: var(--Very-dark-grayish-blue);
     display: flex;
     align-items: center;
-    /*visibility: hidden; */
+    visibility: hidden; 
     z-index: 1;
  }
  .network p {
@@ -163,7 +164,7 @@ img {
         width: 22rem;
         height: 50px;
         top: -60px;
-        left: 59;
+        left: 59%;
         border-radius: 10px;
         justify-content: center;
  }
@@ -178,4 +179,3 @@ img {
  }
 
 }
-
